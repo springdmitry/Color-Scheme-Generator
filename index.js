@@ -29,14 +29,11 @@ colorBtn.addEventListener('click', function () {
                 `
             })
         })
-
-
 })
 
 document.addEventListener('click', function (e) {
     if (e.target.className === "color") {
         navigator.clipboard.writeText(e.target.id)
     }
-
 })
 
